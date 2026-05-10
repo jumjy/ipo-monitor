@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --surface2: #f0efe9;
+  --border: rgba(0,0,0,0.08);
+  --border-strong: rgba(0,0,0,0.14);
+  --text: #1a1917;
+  --text2: #6b6960;
+  --text3: #a09e96;
+  --purple-bg: #EEEDFE; --purple-text: #3C3489; --purple-mid: #534AB7;
+  --teal-bg: #E1F5EE;   --teal-text: #085041;   --teal-mid: #0F6E56;
+  --blue-bg: #E6F1FB;   --blue-text: #0C447C;   --blue-mid: #185FA5;
+  --amber-bg: #FAEEDA; --amber-text: #633806;  --amber-mid: #854F0B;
+  --pink-bg: #FBEAF0;   --pink-text: #72243E;   --pink-mid: #993556;
+  --green-bg: #EAF3DE;  --green-text: #27500A;  --green-mid: #3B6D11;
+  --gray-bg: #F1EFE8;   --gray-text: #444441;   --gray-mid: #5F5E5A;
+  --red-bg: #FCEBEB;    --red-text: #791F1F;    --red-mid: #A32D2D;
+  --success: #1D9E75;
+  --warn: #BA7517;
+  --danger: #E24B4A;
+  --radius: 10px;
+  --radius-lg: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; }

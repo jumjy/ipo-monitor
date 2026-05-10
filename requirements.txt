@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+pandas
+schedule
+python-dotenv
+lxml
+fastapi
+uvicorn[standard]
